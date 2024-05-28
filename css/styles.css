@@ -1,0 +1,85 @@
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    cursor: pointer;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border: 3px solid #fff;
+}
+
+header {
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+
+#threejs-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.overlay {
+    position: relative;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px 20px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #f39c12;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #f39c12;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #333;
+}
+
+#skills .col-md-3 {
+    margin-bottom: 20px;
+    animation: slideUp 1s ease-in-out;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.btn-info {
+    background-color: #f39c12;
+    border-color: #f39c12;
+}
+
+.btn-info:hover {
+    background-color: #e67e22;
+    border-color: #e67e22;
+}
